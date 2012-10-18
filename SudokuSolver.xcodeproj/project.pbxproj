@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9886818D162FA6CA00310DBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9886818C162FA6CA00310DBD /* UIKit.framework */; };
+		9886818F162FA6CA00310DBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9886818E162FA6CA00310DBD /* Foundation.framework */; };
+		98868191162FA6CA00310DBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98868190162FA6CA00310DBD /* CoreGraphics.framework */; };
+		98868197162FA6CA00310DBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98868195162FA6CA00310DBD /* InfoPlist.strings */; };
+		98868199162FA6CA00310DBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98868198162FA6CA00310DBD /* main.m */; };
+		9886819D162FA6CA00310DBD /* GatesDavidsonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9886819C162FA6CA00310DBD /* GatesDavidsonAppDelegate.m */; };
+		988681A0162FA6CA00310DBD /* GatesDavidsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9886819F162FA6CA00310DBD /* GatesDavidsonViewController.m */; };
+		988681A3162FA6CA00310DBD /* GatesDavidsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988681A1162FA6CA00310DBD /* GatesDavidsonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98868188162FA6CA00310DBD /* SudokuSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9886818C162FA6CA00310DBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9886818E162FA6CA00310DBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98868190162FA6CA00310DBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98868194162FA6CA00310DBD /* SudokuSolver-Info.plist */ = {isa = PBXFileReference; path = "SudokuSolver-Info.plist"; sourceTree = "<group>"; };
+		98868196162FA6CA00310DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98868198162FA6CA00310DBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9886819A162FA6CA00310DBD /* SudokuSolver-Prefix.pch */ = {isa = PBXFileReference; path = "SudokuSolver-Prefix.pch"; sourceTree = "<group>"; };
+		9886819B162FA6CA00310DBD /* GatesDavidsonAppDelegate.h */ = {isa = PBXFileReference; path = GatesDavidsonAppDelegate.h; sourceTree = "<group>"; };
+		9886819C162FA6CA00310DBD /* GatesDavidsonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GatesDavidsonAppDelegate.m; sourceTree = "<group>"; };
+		9886819E162FA6CA00310DBD /* GatesDavidsonViewController.h */ = {isa = PBXFileReference; path = GatesDavidsonViewController.h; sourceTree = "<group>"; };
+		9886819F162FA6CA00310DBD /* GatesDavidsonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GatesDavidsonViewController.m; sourceTree = "<group>"; };
+		988681A2162FA6CA00310DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GatesDavidsonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98868185162FA6CA00310DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9886818D162FA6CA00310DBD /* UIKit.framework in Frameworks */,
+				9886818F162FA6CA00310DBD /* Foundation.framework in Frameworks */,
+				98868191162FA6CA00310DBD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9886817D162FA6CA00310DBD = {
+			isa = PBXGroup;
+			children = (
+				98868192162FA6CA00310DBD /* SudokuSolver */,
+				9886818B162FA6CA00310DBD /* Frameworks */,
+				98868189162FA6CA00310DBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98868189162FA6CA00310DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98868188162FA6CA00310DBD /* SudokuSolver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9886818B162FA6CA00310DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9886818C162FA6CA00310DBD /* UIKit.framework */,
+				9886818E162FA6CA00310DBD /* Foundation.framework */,
+				98868190162FA6CA00310DBD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98868192162FA6CA00310DBD /* SudokuSolver */ = {
+			isa = PBXGroup;
+			children = (
+				9886819B162FA6CA00310DBD /* GatesDavidsonAppDelegate.h */,
+				9886819C162FA6CA00310DBD /* GatesDavidsonAppDelegate.m */,
+				9886819E162FA6CA00310DBD /* GatesDavidsonViewController.h */,
+				9886819F162FA6CA00310DBD /* GatesDavidsonViewController.m */,
+				988681A1162FA6CA00310DBD /* GatesDavidsonViewController.xib */,
+				98868193162FA6CA00310DBD /* Supporting Files */,
+			);
+			path = SudokuSolver;
+			sourceTree = "<group>";
+		};
+		98868193162FA6CA00310DBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98868194162FA6CA00310DBD /* SudokuSolver-Info.plist */,
+				98868195162FA6CA00310DBD /* InfoPlist.strings */,
+				98868198162FA6CA00310DBD /* main.m */,
+				9886819A162FA6CA00310DBD /* SudokuSolver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98868187162FA6CA00310DBD /* SudokuSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988681A6162FA6CA00310DBD /* Build configuration list for PBXNativeTarget "SudokuSolver" */;
+			buildPhases = (
+				98868184162FA6CA00310DBD /* Sources */,
+				98868185162FA6CA00310DBD /* Frameworks */,
+				98868186162FA6CA00310DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudokuSolver;
+			productName = SudokuSolver;
+			productReference = 98868188162FA6CA00310DBD /* SudokuSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9886817F162FA6CA00310DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 98868182162FA6CA00310DBD /* Build configuration list for PBXProject "SudokuSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9886817D162FA6CA00310DBD;
+			productRefGroup = 98868189162FA6CA00310DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98868187162FA6CA00310DBD /* SudokuSolver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98868186162FA6CA00310DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98868197162FA6CA00310DBD /* InfoPlist.strings in Resources */,
+				988681A3162FA6CA00310DBD /* GatesDavidsonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98868184162FA6CA00310DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98868199162FA6CA00310DBD /* main.m in Sources */,
+				9886819D162FA6CA00310DBD /* GatesDavidsonAppDelegate.m in Sources */,
+				988681A0162FA6CA00310DBD /* GatesDavidsonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98868195162FA6CA00310DBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98868196162FA6CA00310DBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		988681A1162FA6CA00310DBD /* GatesDavidsonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988681A2162FA6CA00310DBD /* en */,
+			);
+			name = GatesDavidsonViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		988681A4162FA6CA00310DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		988681A5162FA6CA00310DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988681A7162FA6CA00310DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SudokuSolver/SudokuSolver-Prefix.pch";
+				INFOPLIST_FILE = "SudokuSolver/SudokuSolver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		988681A8162FA6CA00310DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SudokuSolver/SudokuSolver-Prefix.pch";
+				INFOPLIST_FILE = "SudokuSolver/SudokuSolver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98868182162FA6CA00310DBD /* Build configuration list for PBXProject "SudokuSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988681A4162FA6CA00310DBD /* Debug */,
+				988681A5162FA6CA00310DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988681A6162FA6CA00310DBD /* Build configuration list for PBXNativeTarget "SudokuSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988681A7162FA6CA00310DBD /* Debug */,
+				988681A8162FA6CA00310DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9886817F162FA6CA00310DBD /* Project object */;
+}

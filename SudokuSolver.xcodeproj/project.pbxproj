@@ -15,6 +15,9 @@
 		9886819D162FA6CA00310DBD /* GatesDavidsonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9886819C162FA6CA00310DBD /* GatesDavidsonAppDelegate.m */; };
 		988681A0162FA6CA00310DBD /* GatesDavidsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9886819F162FA6CA00310DBD /* GatesDavidsonViewController.m */; };
 		988681A3162FA6CA00310DBD /* GatesDavidsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988681A1162FA6CA00310DBD /* GatesDavidsonViewController.xib */; };
+		98D5D141165413B200DE6C72 /* highlightedbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5D13E165413B200DE6C72 /* highlightedbutton.png */; };
+		98D5D142165413B200DE6C72 /* redbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5D13F165413B200DE6C72 /* redbutton.png */; };
+		98D5D143165413B200DE6C72 /* greenbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5D140165413B200DE6C72 /* greenbutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		9886818C162FA6CA00310DBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9886818E162FA6CA00310DBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		98868190162FA6CA00310DBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		98868194162FA6CA00310DBD /* SudokuSolver-Info.plist */ = {isa = PBXFileReference; path = "SudokuSolver-Info.plist"; sourceTree = "<group>"; };
+		98868194162FA6CA00310DBD /* SudokuSolver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SudokuSolver-Info.plist"; sourceTree = "<group>"; };
 		98868196162FA6CA00310DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98868198162FA6CA00310DBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9886819A162FA6CA00310DBD /* SudokuSolver-Prefix.pch */ = {isa = PBXFileReference; path = "SudokuSolver-Prefix.pch"; sourceTree = "<group>"; };
-		9886819B162FA6CA00310DBD /* GatesDavidsonAppDelegate.h */ = {isa = PBXFileReference; path = GatesDavidsonAppDelegate.h; sourceTree = "<group>"; };
+		9886819A162FA6CA00310DBD /* SudokuSolver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SudokuSolver-Prefix.pch"; sourceTree = "<group>"; };
+		9886819B162FA6CA00310DBD /* GatesDavidsonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GatesDavidsonAppDelegate.h; sourceTree = "<group>"; };
 		9886819C162FA6CA00310DBD /* GatesDavidsonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GatesDavidsonAppDelegate.m; sourceTree = "<group>"; };
-		9886819E162FA6CA00310DBD /* GatesDavidsonViewController.h */ = {isa = PBXFileReference; path = GatesDavidsonViewController.h; sourceTree = "<group>"; };
+		9886819E162FA6CA00310DBD /* GatesDavidsonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GatesDavidsonViewController.h; sourceTree = "<group>"; };
 		9886819F162FA6CA00310DBD /* GatesDavidsonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GatesDavidsonViewController.m; sourceTree = "<group>"; };
 		988681A2162FA6CA00310DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GatesDavidsonViewController.xib; sourceTree = "<group>"; };
+		98D5D13E165413B200DE6C72 /* highlightedbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlightedbutton.png; sourceTree = "<group>"; };
+		98D5D13F165413B200DE6C72 /* redbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton.png; sourceTree = "<group>"; };
+		98D5D140165413B200DE6C72 /* greenbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,9 @@
 		9886817D162FA6CA00310DBD = {
 			isa = PBXGroup;
 			children = (
+				98D5D13E165413B200DE6C72 /* highlightedbutton.png */,
+				98D5D13F165413B200DE6C72 /* redbutton.png */,
+				98D5D140165413B200DE6C72 /* greenbutton.png */,
 				98868192162FA6CA00310DBD /* SudokuSolver */,
 				9886818B162FA6CA00310DBD /* Frameworks */,
 				98868189162FA6CA00310DBD /* Products */,
@@ -150,6 +159,9 @@
 			files = (
 				98868197162FA6CA00310DBD /* InfoPlist.strings in Resources */,
 				988681A3162FA6CA00310DBD /* GatesDavidsonViewController.xib in Resources */,
+				98D5D141165413B200DE6C72 /* highlightedbutton.png in Resources */,
+				98D5D142165413B200DE6C72 /* redbutton.png in Resources */,
+				98D5D143165413B200DE6C72 /* greenbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +252,7 @@
 				GCC_PREFIX_HEADER = "SudokuSolver/SudokuSolver-Prefix.pch";
 				INFOPLIST_FILE = "SudokuSolver/SudokuSolver-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -251,6 +264,7 @@
 				GCC_PREFIX_HEADER = "SudokuSolver/SudokuSolver-Prefix.pch";
 				INFOPLIST_FILE = "SudokuSolver/SudokuSolver-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -274,6 +288,7 @@
 				988681A8162FA6CA00310DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
